@@ -1,0 +1,53 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 33% 33% 33%;
+  color: #ffffff;
+  background-color: #2d2d2d;
+}
+.App-header {
+  margin: 0%;
+  text-align: center;
+  font-size: 30px;
+}
+.App-header p{
+  font-size: 24pt;
+}
+.Center{
+  flex: 1;
+  flex-grow: 1;
+  padding: 0px 0px 0px 20px;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+}
+.Center img{
+  border: 5px inset black;
+  margin: 10px;
+}
+.Center p{
+  font-size: 18pt;
+}
+.FeatureExplanation{
+  width: 50%;
+  padding: 0px 10px;
+  text-align: left;
+}
+.DescriptionText{
+  flex-direction: row;
+  text-align: center;
+  width: 100%;
+}
+.DescriptionText a{
+  color: #ab80c6;
+}
+.promovid{
+  align-self: center;
+  border: 5px outset #000000;
+}
+.Reviews {
+  flex: 1;
+  text-align: center;
+  background-color: green;
+}

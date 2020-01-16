@@ -6,12 +6,24 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1 className="App-header">
+      <div className="App-header">
+        Ski-J
         <img src={snowflakeicon2} width='100' height='100' flex='.2'></img>
-      </h1>
-      The best way to listen to music while you ski or ride
-      <h2>
-      </h2>
+        The best way to listen to music while you ski or ride
+      </div>
+      <div className="Center">
+        <div className="Promo-Video">
+          <iframe tite="promovid" src="https://www.youtube.com/embed/PNs68O5JSKg" 
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true">
+        </iframe>
+       </div>
+        <div className="Star-Ratings">
+          <p> Star ratings</p>
+        </div>
+      </div>
+      <div className="Reviews">
+        <p>reviews here</p>
+      </div>
     </div>
   );
 }

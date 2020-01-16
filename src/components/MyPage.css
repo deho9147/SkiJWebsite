@@ -1,0 +1,46 @@
+.WholePage {
+    display: flex;
+    flex-direction: column;
+    background-color:#2d2d2d;
+    flex-basis: 20% 40% 40%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    color: white;
+    margin: 0px 0px;
+}
+p {
+    line-height: 1.5;
+    font-size: 14pt;
+}
+.WholePage a {
+    color:#ab80c6;
+    padding-right: 8pt;
+}
+.MiddleSpacer {
+    flex-grow: 1;
+    height: 300px;
+}
+.Overview {
+    width: 100%;
+    text-align: center;
+}
+.OverviewText{
+    display: inline-block;
+    color: white;
+    width: 60%;
+    line-height: 2;
+}
+.Projects{
+    width: 70%;
+    align-self: center;
+}
+.Projects h1{
+    padding: 0pt;
+}
+.Headshot {
+    position: absolute;
+    top: 50pt;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px outset black;
+}

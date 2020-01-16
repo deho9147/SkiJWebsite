@@ -1,0 +1,29 @@
+.Header {
+    display: flex;
+    background-color: #ab80c6;
+    flex-direction: row;
+    flex-basis: 50% 50%;
+    font-family: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif';
+}
+.Header_Title {
+    color: white;
+    flex-shrink: 0;
+    text-align: center;
+    width: 50%;
+    flex-grow: 0;
+}
+.Header_Title a{
+    color: white;
+}
+.Header_Info {
+    padding: 8pt;
+    color: white;
+    width: 50%;
+    text-align: center;
+    background-color:#ab80c6;
+    display: inline-block;
+}
+.Header_Info a {
+    color: white;
+    padding: 8pt;
+}
