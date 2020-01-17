@@ -2,21 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import {BrowserRouter, Route, Redirect} from 'react-router-dom';
+import {HashRouter, Route, Redirect} from 'react-router-dom';
 import SkijPage from './components/SkijPage';
 import MyPage from './components/MyPage';
 import EcExamination from './components/EcExamination';
+import ScrollToTop from './components/ScrollToTop';
 const routing = (
-    <BrowserRouter>
-        <div>
+    <HashRouter>
+        <ScrollToTop>
             <Route exact path="/">
                 <Redirect to="/home"></Redirect>
             </Route>
             <Route path = "/home" component = {MyPage} />
             <Route path = "/skij" component = {SkijPage}/>
             <Route path = "/ec_exam" component = {EcExamination}/>
-        </div>
-    </BrowserRouter>
+        </ScrollToTop>
+    </HashRouter>
 )
 
 ReactDOM.render(routing, document.getElementById('root'));
