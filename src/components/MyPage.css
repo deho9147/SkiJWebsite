@@ -1,7 +1,11 @@
+body{
+    padding-bottom: 20px;
+    background-color: #1d1d1d;
+  }
 .WholePage {
     display: flex;
     flex-direction: column;
-    background-color:#2d2d2d;
+    background-color:#1d1d1d;
     flex-basis: 20% 40% 40%;
     flex-shrink: 0;
     flex-grow: 0;
@@ -34,13 +38,128 @@ p {
     width: 70%;
     align-self: center;
 }
-.Projects h1{
-    padding: 0pt;
+.Projects h1 {
+    margin-bottom: -20px;
 }
 .Headshot {
     position: absolute;
     top: 50pt;
     left: 50%;
     transform: translateX(-50%);
-    border: 5px outset black;
+    border: 5px outset black;;
+}
+
+#skijPage
+
+.App {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33% 33% 33%;
+    color: #ffffff;
+    background-color: #1d1d1d;
+  }
+  .App h1{
+      color: #ffffff;
+  }
+  .App p{
+      color: #ffffff;
+
+  }
+  .App-header {
+    margin: 0%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .App-header p{
+    font-size: 24pt;
+  }
+  .Center{
+    flex: 1;
+    flex-grow: 1;
+    padding: 0px 0px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+  }
+  .Center img{
+    border: 5px inset black;
+    margin: 10px;
+  }
+  .Center p{
+    font-size: 18pt;
+  }
+  .FeatureExplanation{
+    width: 50%;
+    padding: 0px 10px;
+    text-align: left;
+  }
+  .DescriptionText{
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+  }
+  .DescriptionText a{
+    color: #ab80c6;
+  }
+  
+#ECPAGE
+
+.ECPage body{
+    background-color: #ffffff;
+
+}
+
+.ECPage{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.ECTitle{
+    text-align: center;
+}
+.D3MapDiv{
+    max-width: 80%;
+}
+.MapDiv{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.MapImage{
+    width:60%;
+    align-self: center;
+}
+.buttonList{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+    padding: 5px;
+}
+.buttonSingle{
+    padding: 5px;
+    border:1;
+}
+.MapExplanation{
+    align-self: center;
+    max-width: 60%;
+}
+.CSVdisplay{
+    width: 100%;
+    empty-cells: show;
+    align-self: center;
+    border-collapse: collapse;
+    background-color: lightgray;
+}
+tr,th,td{
+    padding: 4px;
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+tr:nth-child(odd){
+    background-color: white;
 }

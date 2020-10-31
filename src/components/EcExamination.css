@@ -6,6 +6,9 @@
 .ECTitle{
     text-align: center;
 }
+.D3MapDiv{
+    max-width: 80%;
+}
 .MapDiv{
     text-align: center;
     display: flex;

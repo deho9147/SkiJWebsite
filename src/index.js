@@ -7,6 +7,8 @@ import SkijPage from './components/SkijPage';
 import MyPage from './components/MyPage';
 import EcExamination from './components/EcExamination';
 import ScrollToTop from './components/ScrollToTop';
+import GOML from './components/GOML_game';
+import MapChart from './components/MapChart'
 const routing = (
     <HashRouter>
         <ScrollToTop>
@@ -14,8 +16,10 @@ const routing = (
                 <Redirect to="/home"></Redirect>
             </Route>
             <Route path = "/home" component = {MyPage} />
+            <Route path = "/getonmylevel" component={GOML}/>
             <Route path = "/skij" component = {SkijPage}/>
             <Route path = "/ec_exam" component = {EcExamination}/>
+            <Route path = "/map_test" component= {MapChart}/>
         </ScrollToTop>
     </HashRouter>
 )

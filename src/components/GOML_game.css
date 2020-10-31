@@ -1,0 +1,40 @@
+.GOML_game{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+input[type="range"]{
+    -webkit-appearance: none;
+   width: 80%; 
+}
+input[type="range"]::-webkit-slider-thumb {
+    height: 100px;
+    background-image: url(res/skij_front.png);
+    background: tomato;
+}
+input[type="range"]::-webkit-slider-runnable-track{
+    height: 1%;
+    width: 80%;
+    background-color: teal;
+}
+.seekbars{
+    background-color: black;
+}
+.prompt{
+    display: flex;
+    justify-content: space-evenly;
+}
+.teamScores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.team1ScoreBoard{
+    text-align: center;
+    background-color: blueviolet;
+}
+.team2ScoreBoard{
+    text-align: center;
+    background-color: brown;
+}

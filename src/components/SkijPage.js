@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './skijpage.css';
+import './MyPage.css';
 import Header from './Header.js'; 
 import SkiJFront from './res/skij_front.png';
 import SkiJOptions from './res/skij_options.png';

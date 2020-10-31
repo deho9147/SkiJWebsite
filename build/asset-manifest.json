@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6658b5e.chunk.css",
-    "main.js": "/static/js/main.c5a70ea1.chunk.js",
-    "main.js.map": "/static/js/main.c5a70ea1.chunk.js.map",
+    "main.css": "/static/css/main.37984680.chunk.css",
+    "main.js": "/static/js/main.332d4e59.chunk.js",
+    "main.js.map": "/static/js/main.332d4e59.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d01be472.js",
     "runtime-main.js.map": "/static/js/runtime-main.d01be472.js.map",
-    "static/js/2.63b2b5e1.chunk.js": "/static/js/2.63b2b5e1.chunk.js",
-    "static/js/2.63b2b5e1.chunk.js.map": "/static/js/2.63b2b5e1.chunk.js.map",
+    "static/js/2.c84c86ae.chunk.js": "/static/js/2.c84c86ae.chunk.js",
+    "static/js/2.c84c86ae.chunk.js.map": "/static/js/2.c84c86ae.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8ffbd86907f077dd2058847c3ffea23c.js": "/precache-manifest.8ffbd86907f077dd2058847c3ffea23c.js",
+    "precache-manifest.0053b2c946196d4cc584db6513145919.js": "/precache-manifest.0053b2c946196d4cc584db6513145919.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d6658b5e.chunk.css.map": "/static/css/main.d6658b5e.chunk.css.map",
-    "static/js/2.63b2b5e1.chunk.js.LICENSE": "/static/js/2.63b2b5e1.chunk.js.LICENSE",
+    "static/css/main.37984680.chunk.css.map": "/static/css/main.37984680.chunk.css.map",
+    "static/js/2.c84c86ae.chunk.js.LICENSE": "/static/js/2.c84c86ae.chunk.js.LICENSE",
     "static/media/1976.csv": "/static/media/1976.2bcbaf33.csv",
     "static/media/1976_compress.svg": "/static/media/1976_compress.97b41221.svg",
     "static/media/1980.csv": "/static/media/1980.f5ee13ea.csv",
@@ -34,15 +34,15 @@
     "static/media/2012_compress.svg": "/static/media/2012_compress.4c72e508.svg",
     "static/media/2016.csv": "/static/media/2016.c3cc60c7.csv",
     "static/media/2016_compress.svg": "/static/media/2016_compress.06ffcd4f.svg",
-    "static/media/DerekHolland_resume.pdf": "/static/media/DerekHolland_resume.d2b36b53.pdf",
+    "static/media/DerekHolland_Resume.pdf": "/static/media/DerekHolland_Resume.66808e9b.pdf",
     "static/media/Headshot.png": "/static/media/Headshot.fe1b57d4.png",
-    "static/media/skij_front.png": "/static/media/skij_front.0727a93c.png",
+    "static/media/GOML_game.css": "/static/media/skij_front.0727a93c.png",
     "static/media/skij_options.png": "/static/media/skij_options.def8b9e7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d01be472.js",
-    "static/js/2.63b2b5e1.chunk.js",
-    "static/css/main.d6658b5e.chunk.css",
-    "static/js/main.c5a70ea1.chunk.js"
+    "static/js/2.c84c86ae.chunk.js",
+    "static/css/main.37984680.chunk.css",
+    "static/js/main.332d4e59.chunk.js"
   ]
 }

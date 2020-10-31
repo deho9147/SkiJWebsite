@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
-import './EcExamination.css';
+import './MyPage.css';
 import 'react-papaparse';
 import CsvDisplay from './CsvDisplay.js'
 import Header from './Header.js'
+import MapChart from './MapChart'
 import year1976 from './res/map_pictures/svgs/1976_compress.svg';
 import year1980 from './res/map_pictures/svgs/1980_compress.svg';
 import year1984 from './res/map_pictures/svgs/1984_compress.svg';
@@ -58,7 +59,6 @@ export default class EcExamination extends Component {
         return allText;
     }
     handlePress = event => {
-        console.log(event.target.val)
         this.setState({
             map_key: event.target.name,
         })

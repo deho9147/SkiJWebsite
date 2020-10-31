@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom'
 import headshot from './res/Headshot.png'
 import Header from './Header.js';
-import resume from './res/DerekHolland_resume.pdf';
+import resume from './res/DerekHolland_Resume.pdf';
 import './MyPage.css'
 
 
@@ -21,11 +21,19 @@ export default class MyPage extends Component {
                     <a href={resume}><h2>Full Resume</h2></a>
                     </div>
                 <div className="Projects">
+                    <div className="GOMLDescription">
+                        <a href="https://goml.app">
+                        <h1>Get On My Level</h1>
+                        </a>
+                        <p>A Websocket based party game for as many players as you want. Also, an android application for local play</p>
+                        <a href="https://github.com/deho9147/gomlApp">Github</a>
+                        <a href="https://play.google.com/store/apps/details?id=e.dholland.getonmylevel">Google Play Store</a>
+                    </div>
                     <div className="SkiJDescription">
                         <Link to="/skij">
                         <h1>Ski-J</h1>
                         </Link>
-                        <p>Android application to control music volume while you ski</p>
+                        <p>Java based Android application to control music volume while you ski</p>
                         <a href="https://github.com/deho9147/SkiDJ">Github</a>
                         <a href="https://play.google.com/store/apps/details?id=e.dholland.ski_j">Google Play Store</a>
                     </div>
